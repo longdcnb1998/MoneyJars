@@ -1,0 +1,20 @@
+
+w
+java:S1450 "ZRemove the "lvSelectJar" field and declare it as a local variable in the relevant methods.(œ“¿ç8Ì¦Îæ±.
+u
+java:S1450"XRemove the "viewModel" field and declare it as a local variable in the relevant methods.(‚ÚÕÌ8àðÖæ±.
+m	java:S114ˆ"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¶ë¡J8“ó‹è±.
+}
+java:S1450!"[Remove the "tv100Percent" field and declare it as a local variable in the relevant methods.(¶òëôúÿÿÿÿ8Ì¦Îæ±.
+P
+java:S1481S".Remove this unused "!unknown!" local variable.(¾¬’žùÿÿÿÿ8¼Î›ñ±.
+R
+java:S1068!"0Remove this unused "tv100Percent" private field.(¶òëôúÿÿÿÿ8ü®¿ð±.
+o
+java:S3776@"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Ö‰ü¼8ü®¿ð±.
+”
+java:S1319*"wThe type of the "listSelected" object should be an interface such as "List" rather than the implementation "ArrayList".(Ï«Øü8üµ¼ð±.
+K
+java:S1068'".Remove this unused "listPicked" private field.(ÀÂˆÖ8ú±Óð±.
+Q
+java:S1068("/Remove this unused "moveAdapter" private field.(“¯Ö¨úÿÿÿÿ8®ÙÁý±.

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MoneyJars</string>
+    <string name="Continue">Tiếp tục </string>
+    <string name="skip">Bỏ qua</string>
+    <string name="guide2">Nguyên tắc 6 cái hũ</string>
+    <string name="guide2_des">Phân chia thu nhập vào 6 hũ cho các mục đích sử dụng khác nhau</string>
+    <string name="guide1">2 phút mỗi ngày</string>
+    <string name="guide1_des">Sử dụng MoneyJars để tạo thói quen chi tiêu có kế hoạch</string>
+    <string name="guide3">Tự động phân bổ thu nhập</string>
+    <string name="guide3_des">Theo tỷ lệ % được thiết lập sẵn.Bạn có thể thay đổi tỷ lệ này trong phần cài đặt</string>
+    <string name="available_balances">Số dư khả dụng</string>
+    <string name="income">Thu nhập</string>
+    <string name="outcome">Chi tiêu</string>
+    <string name="list_jars">Danh sách hũ</string>
+    <string name="history">Lịch sử</string>
+    <string name="seeMore">Xem thêm</string>
+    <string name="VND"><u>đ</u></string>
+    <string name="appLanguage">appLanguage</string>
+    <string name="description">Mô tả...</string>
+    <string name="confirm">Xác nhận</string>
+</resources>

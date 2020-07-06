@@ -1,0 +1,17 @@
+
+‘
+java:S1319"oThe type of the "list" object should be an interface such as "List" rather than the implementation "ArrayList".(•ŸÈ¸üÿÿÿÿ8À°›ì±.
+_
+java:S1128"=Remove this unused import 'com.example.moneyjars.entity.Jar'.(ªê§¥øÿÿÿÿ8¥¦±ì±.
+K
+java:S16592")Declare "tvTimeStamp" on a separate line.(«¸ì£üÿÿÿÿ8×Û£ì±.
+r
+java:S1104"PMake list a static final constant or non-public and provide accessors if needed.(•ŸÈ¸üÿÿÿÿ8À°›ì±.
+H
+java:S16592"&Declare "tvAmount" on a separate line.(«¸ì£üÿÿÿÿ8«• ì±.
+F
+java:S16592"$Declare "tvType" on a separate line.(«¸ì£üÿÿÿÿ8×Û£ì±.
+Œ
+java:S1319"oThe type of the "list" object should be an interface such as "List" rather than the implementation "ArrayList".(ýœÌú8ÿµœì±.
+u
+java:S1104"SMake context a static final constant or non-public and provide accessors if needed.(±¹ï±úÿÿÿÿ8À°›ì±.

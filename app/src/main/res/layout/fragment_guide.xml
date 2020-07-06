@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="@dimen/marginBig"
+        android:id="@+id/img_guide"
+        android:layout_marginLeft="@dimen/marginNormal"
+        android:layout_marginRight="@dimen/marginNormal"
+        android:src="@mipmap/money_jar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_guide_title"
+        android:textColor="@color/colorWhite"
+        android:text="@string/guide1"
+        android:textSize="@dimen/textSizeLargeX"
+        android:layout_margin="@dimen/marginNormal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/grayd"
+        android:text="@string/guide1_des"
+        android:textSize="@dimen/textSizeLarge"
+        android:layout_margin="@dimen/marginNormal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_guide_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

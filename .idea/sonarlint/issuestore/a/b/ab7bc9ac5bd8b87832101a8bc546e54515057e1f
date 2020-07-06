@@ -1,0 +1,13 @@
+
+E
+java:S1604k"(Make this anonymous inner class a lambda(ÉãÃ®8ÿèìë±.
+M
+java:S1068#"+Remove this unused "history" private field.(Ÿ«š„ÿÿÿÿÿ8­ĞÄé±.
+E
+java:S1604="(Make this anonymous inner class a lambda(ò—Ê8Âêóë±.
+J
+java:S1604Y"(Make this anonymous inner class a lambda(Ğ¿·Ïøÿÿÿÿ8ƒÎ°ê±.
+D
+java:S1185."(Remove this method to simply inherit it.(¥Ë©8ƒÎ°ê±.
+}
+java:S1488)"`Immediately return this expression instead of assigning it to the temporary variable "fragment".(¹Ë‰Ï8ƒÎ°ê±.

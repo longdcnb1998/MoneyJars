@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data></data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@color/appColor"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/custom_bg_edittext_rectangle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                app:layout_constraintEnd_toStartOf="@+id/jarEnd"
+                android:id="@+id/jarStart"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/grayd"
+                    android:text="Hũ Chuyển"
+                    android:textAllCaps="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageButton
+                    android:id="@+id/ivJarStart"
+                    android:layout_marginTop="@dimen/marginNormal"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/custom_view"
+                    android:layout_width="@dimen/iconSize"
+                    android:layout_height="@dimen/iconSize"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/marginNormal"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:text="Chọn loại hũ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/jarEnd"
+                app:layout_constraintStart_toEndOf="@+id/jarStart"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/grayd"
+                    android:text="Hũ Nhận"
+                    android:textAllCaps="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageButton
+                    android:id="@+id/ivJarEnd"
+                    android:layout_marginTop="@dimen/marginNormal"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/custom_view"
+                    android:layout_width="@dimen/iconSize"
+                    android:layout_height="@dimen/iconSize"/>
+
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/marginNormal"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Chọn loại hũ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/edtAmount"
+                android:inputType="number"
+                android:layout_margin="@dimen/marginNormal"
+                android:hint="0"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/textSizeLargeX"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/jarStart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <Button
+            android:textSize="@dimen/textSizeNormal"
+            android:textAllCaps="false"
+            android:padding="@dimen/paddingNormal"
+            android:id="@+id/btnConfirm"
+            android:textColor="@color/white"
+            android:layout_margin="@dimen/marginNormal"
+            android:background="@color/appColorLight"
+            android:text="Thực hiện giao dịch"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

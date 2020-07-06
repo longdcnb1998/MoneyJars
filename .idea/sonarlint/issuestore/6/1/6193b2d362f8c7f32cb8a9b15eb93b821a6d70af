@@ -1,0 +1,9 @@
+
+C	java:S131""Add a default case to this switch.(¼œóÛüÿÿÿÿ8ÀıÍ…±.
+C	java:S131#""Add a default case to this switch.(¼œóÛüÿÿÿÿ8ŸÍˆ±.
+u
+java:S2637"XThis method's return value is marked "androidx.annotation.NonNull" but null is returned.(¥¹ï8Ø–±.
+g
+java:S1874"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(®“áæ8ø¨Í…±.
+]
+java:S1874"ARemove this use of "FragmentStatePagerAdapter"; it is deprecated.(‘í›\8ø¨Í…±.

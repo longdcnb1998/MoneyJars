@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="appColor">#16222e</color>
+    <color name="backgroungColor">#27333f</color>
+    <color name="appColorLight">#17c2c2</color>
+
+    <color name="backgroundColor_dark">#1d2331</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="green_light">#35be64</color>
+
+    <color name="black">#000000</color>
+    <color name="blackLight">#80000000</color>
+    <color name="blue">#00a2e4</color>
+    <color name="border">#dddddd</color>
+    <color name="cream">#f5f5f5</color>
+    <color name="crystal">#99000000</color>
+    <color name="crystalBlack">#22000000</color>
+    <color name="crystalWhite">#22ffffff</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="grayc">#cccccc</color>
+    <color name="grayd">#dddddd</color>
+    <color name="graye">#eeeeee</color>
+    <color name="green">#1A9A27</color>
+    <color name="orange">#CCF2994A</color>
+    <color name="pink">#e91e63</color>
+    <color name="red">#ff4b26</color>
+    <color name="text">#555555</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="whiteAlpha">#88ffffff</color>
+
+    <color name="color_custom_bg">#27333f</color>
+
+    <color name="background">#99000000</color>
+    <color name="colorFuzzyDark">#33B9D3D2</color>
+    <color name="colorFuzzy">#B9D3D2</color>
+    <color name="statusBarColor">#31465F</color>
+    <color name="orangeDark">#F2994A</color>
+</resources>

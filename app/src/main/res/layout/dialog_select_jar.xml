@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:background="@color/crystal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/ltSelectJar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/viewEmpty"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       app:layout_constraintTop_toBottomOf="@+id/viewEmpty"
+       android:id="@+id/ltSelectJar"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintBottom_toBottomOf="parent"
+       android:background="@color/backgroungColor"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:layout_margin="@dimen/marginSmall"
+           android:id="@+id/lvJars"
+           app:layout_constraintBottom_toTopOf="@+id/ltSumPercent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"/>
+
+
+       <RelativeLayout
+           android:id="@+id/ltSumPercent"
+           android:background="@drawable/custom_bg_edittext_square"
+           android:layout_marginStart="@dimen/marginSmall"
+           android:layout_marginEnd="@dimen/marginNormal"
+           android:layout_marginBottom="@dimen/marginNormal"
+           android:orientation="horizontal"
+           app:layout_constraintBottom_toTopOf="@+id/btnConfirm"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:textSize="@dimen/textSizeLargeX"
+               android:textColor="@color/white"
+               android:text="Tổng :"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:id="@+id/tvPercent"
+               android:layout_alignParentEnd="true"
+               android:text="100"
+               android:textColor="@color/appColorLight"
+               android:textSize="@dimen/textSizeLargeX"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+       </RelativeLayout>
+
+
+       <Button
+           android:textSize="@dimen/textSizeNormal"
+           android:layout_marginBottom="@dimen/marginNormal"
+           android:textColor="@color/white"
+           android:id="@+id/btnConfirm"
+           android:background="@color/appColorLight"
+           android:textAllCaps="false"
+           android:text="@string/confirm"
+           android:layout_marginStart="@dimen/marginSmall"
+           android:layout_marginEnd="@dimen/marginNormal"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
+           android:layout_width="0dp"
+           android:layout_height="50dp"/>
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

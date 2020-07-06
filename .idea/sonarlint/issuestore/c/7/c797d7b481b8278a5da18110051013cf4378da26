@@ -1,0 +1,13 @@
+
+Œ
+java:S1319"oThe type of the "list" object should be an interface such as "List" rather than the implementation "ArrayList".(‘‘Ó8ºüÀ°.
+u
+java:S1104"SMake context a static final constant or non-public and provide accessors if needed.(±¹ï±úÿÿÿÿ8æ‹ûÀ°.
+m
+java:S1104"PMake list a static final constant or non-public and provide accessors if needed.(‘‘Ó8ºüÀ°.
+v
+java:S1104"TMake callback a static final constant or non-public and provide accessors if needed.(í°à‘úÿÿÿÿ8·”şÀ°.
+Œ
+java:S1319"oThe type of the "list" object should be an interface such as "List" rather than the implementation "ArrayList".(¶ĞÊÿ8·”şÀ°.
+H
+java:S16594"&Declare "tvAmount" on a separate line.(ÄŠß©ûÿÿÿÿ8¾ıæ±.

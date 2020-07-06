@@ -1,0 +1,13 @@
+
+x
+java:S1450"VRemove the "binding" field and declare it as a local variable in the relevant methods.(”Ç‚úÿÿÿÿ8…‡‚±.
+i
+java:S1128"GRemove this unused import 'com.example.moneyjars.fragment.FragmentAdd'.(ışÃËşÿÿÿÿ8Ñ Ğé±.
+M
+java:S1128"0Remove this unused import 'androidx.room.Index'.(É‘¤Á8…‡‚±.
+x
+java:S1450"VRemove the "adapter" field and declare it as a local variable in the relevant methods.(åô‘Üûÿÿÿÿ8ŞÙÒè±.
+\
+java:S1128"?Remove this unused import 'com.example.moneyjars.UIController'.(Ê¸ê«8ŞÙÒè±.
+S
+java:S1128"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ8Ñ Ğé±.

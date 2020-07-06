@@ -1,0 +1,13 @@
+
+o
+java:S37762"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ö‰ü¼8“ƒş±.
+D
+java:S1185&"(Remove this method to simply inherit it.(¥Ë©8éËşŒ±.
+‚
+java:S1488!"`Immediately return this expression instead of assigning it to the temporary variable "fragment".(Ì¼õ®øÿÿÿÿ8Ïé€±.
+J
+java:S1604L"(Make this anonymous inner class a lambda(—“ª„úÿÿÿÿ8ßàºı±.
+J
+java:S1604;"(Make this anonymous inner class a lambda(—“ª„úÿÿÿÿ8§“ºı±.
+A
+java:S1659"$Declare "jarEnd" on a separate line.(ÁíŒ8Ô§çı±.

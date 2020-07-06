@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:icon="@mipmap/home_off"
+        android:title="Home"
+        android:id="@+id/nav_home"></item>
+
+    <item android:icon="@mipmap/history_off"
+        android:title="Home"
+        android:id="@+id/nav_history"></item>
+
+    <item android:icon="@mipmap/plus_on"
+        android:title="Home"
+        android:id="@+id/nav_add"></item>
+    <item android:icon="@mipmap/chart_off"
+        android:title="Home"
+        android:id="@+id/nav_chart"></item>
+    <item android:icon="@mipmap/other_off"
+        android:title="Home"
+        android:id="@+id/nav_other"></item>
+
+</menu>
