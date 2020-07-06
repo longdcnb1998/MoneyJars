@@ -141,7 +141,6 @@ public class LoginActivity extends AppCompatActivity {
                 editor.commit();
                 if (DialogUtils.enableShowDialogFragment(getSupportFragmentManager(), DialogGuide.class.getSimpleName())) {
                     new DialogGuide().show(getSupportFragmentManager(), DialogGuide.class.getSimpleName());
-                    finish();
                 }
 
                 Log.d(TAG, personName + " " + personGivenName + " " + personFamilyName + " " + personEmail + " " +
