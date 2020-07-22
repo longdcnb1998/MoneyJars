@@ -23,6 +23,7 @@ import com.example.moneyjars.entity.Jar;
 import com.example.moneyjars.entity.NoteHistory;
 import com.example.moneyjars.util.DialogUtils;
 import com.example.moneyjars.viewmodel.JarViewModel;
+import com.example.moneyjars.viewmodel.NoteHistoryViewModel;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -99,19 +100,24 @@ public class FragmentAdd extends Fragment {
             @Override
             public void onClick(View v) {
                 for (int i = 0; i < listSelected.size(); i++) {
-                    int amount = Integer.parseInt(binding.edtAmount.getText().toString().trim()) * listSelected.get(i).getPercent() / 100;
-                    listSelected.get(i).setIncome(Integer.parseInt(listSelected.get(i).getIncome()) + amount + "");
-                    viewModel.insertJar(listSelected.get(i));
-                    int finalI = i;
-                    String finalAmount = String.valueOf(amount);
-                    new Thread(new Runnable() {
-                        @Override
-                        public void run() {
-                            historyViewModel.insertHistory(new NoteHistory(listSelected.get(finalI).getId(), listSelected.get(finalI).getNameJar(),
-                                    listSelected.get(finalI).getAvatar(), 1,1,
-                                    finalAmount, binding.tvSelectDate.getText().toString(), binding.edtDes.getText().toString().trim()));
-                        }
-                    }).start();
+                   if (binding.edtAmount.getText().toString().trim().length() > 0){
+                       int amount = Integer.parseInt(binding.edtAmount.getText().toString().trim()) * listSelected.get(i).getPercent() / 100;
+                       listSelected.get(i).setIncome(Integer.parseInt(listSelected.get(i).getIncome()) + amount + "");
+                       viewModel.insertJar(listSelected.get(i));
+                       int finalI = i;
+                       String finalAmount = String.valueOf(amount);
+                       new Thread(new Runnable() {
+                           @Override
+                           public void run() {
+                               historyViewModel.insertHistory(new NoteHistory(listSelected.get(finalI).getId(), listSelected.get(finalI).getNameJar(),
+                                       listSelected.get(finalI).getAvatar(), 1,1,
+                                       finalAmount, binding.tvSelectDate.getText().toString(), binding.edtDes.getText().toString().trim()));
+                           }
+                       }).start();
+                   }
+                   else {
+                       Toast.makeText(getActivity(), "Bạn chưa nhập số tiền", Toast.LENGTH_SHORT).show();
+                   }
                 }
                 Toast.makeText(getActivity(), "Đã thêm thành công", Toast.LENGTH_SHORT).show();
                 KeyboardController.hide(getContext(), binding.edtAmount);

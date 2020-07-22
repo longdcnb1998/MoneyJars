@@ -82,7 +82,7 @@ public class FragmentChart extends Fragment {
             cartesian.interactivity().hoverMode(HoverMode.BY_X);
 
             cartesian.xAxis(0).title("Các hũ tiền");
-            cartesian.yAxis(0).title("Số tiền tiền");
+            cartesian.yAxis(0).title("Số tiền ");
         });
         binding.anyChart.setChart(cartesian);
 

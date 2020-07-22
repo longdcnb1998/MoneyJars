@@ -1,7 +1,17 @@
 
-=
-java:S1185"(Remove this method to simply inherit it.(¥Ë©
->
-java:S1185"(Remove this method to simply inherit it.(¡Œşø
-w
-java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "view".(êñÚ¦úÿÿÿÿ
+O
+java:S1128"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8ğ‡—².
+X
+java:S1128	"6Remove this unused import 'android.widget.DatePicker'.(µö—şÿÿÿÿ8Ğæ¢².
+N
+java:S1602`",Remove useless curly braces around statement(Ôÿ—şÿÿÿÿ8¢¾Á².
+[
+java:S1128"9Remove this unused import 'android.app.DatePickerDialog'.(„å“ˆùÿÿÿÿ8Ğæ¢².
+D
+java:S1185,"(Remove this method to simply inherit it.(¥Ë©8±Œ¬².
+J
+java:S1604@"(Make this anonymous inner class a lambda(È„»øÿÿÿÿ8õ‹±™².
+J
+java:S1604N"(Make this anonymous inner class a lambda(Ãßƒûùÿÿÿÿ8õ‹±™².
+E
+java:S1604["(Make this anonymous inner class a lambda(òÌ®˜8õ‹±™².

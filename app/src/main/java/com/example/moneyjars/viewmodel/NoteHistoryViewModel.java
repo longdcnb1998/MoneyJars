@@ -1,4 +1,4 @@
-package com.example.moneyjars.fragment;
+package com.example.moneyjars.viewmodel;
 
 import android.app.Application;
 

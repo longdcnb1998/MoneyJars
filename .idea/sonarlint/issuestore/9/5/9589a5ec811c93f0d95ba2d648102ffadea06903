@@ -1,11 +1,11 @@
 
+n	java:S116"TRename this field "img_guide" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¼ÈÏýÿÿÿÿ
 =
 java:S1185"(Remove this method to simply inherit it.(¥Ë©
-m	java:S116"SRename this field "tv_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯‘€¿ûÿÿÿÿ
-k	java:S116"QRename this field "tv_des" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯‘€¿ûÿÿÿÿ
-?
-java:S1659"$Declare "tv_des" on a separate line.(¯‘€¿ûÿÿÿÿ
-n	java:S116"TRename this field "img_guide" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¼ÈÏýÿÿÿÿ
-<	java:S1310""Add a default case to this switch.(¼œóÛüÿÿÿÿ
 r
 java:S1488&"\Immediately return this expression instead of assigning it to the temporary variable "view".(Ýøüá
+?
+java:S1659"$Declare "tv_des" on a separate line.(¯‘€¿ûÿÿÿÿ
+k	java:S116"QRename this field "tv_des" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯‘€¿ûÿÿÿÿ
+<	java:S1310""Add a default case to this switch.(¼œóÛüÿÿÿÿ
+m	java:S116"SRename this field "tv_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯‘€¿ûÿÿÿÿ

@@ -23,6 +23,7 @@ import com.example.moneyjars.entity.Jar;
 import com.example.moneyjars.entity.NoteHistory;
 import com.example.moneyjars.util.DialogUtils;
 import com.example.moneyjars.viewmodel.JarViewModel;
+import com.example.moneyjars.viewmodel.NoteHistoryViewModel;
 
 import java.util.ArrayList;
 import java.util.Calendar;

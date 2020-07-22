@@ -77,8 +77,6 @@ o
 ?app/src/main/java/com/example/moneyjars/KeyboardController.java,7\9\793ba8f9b17632c2fa02adf60f47b58544edd7b7
 l
 <app/src/main/java/com/example/moneyjars/DialogSelectJar.java,f\b\fb1ae81974704fcfa0a20ded4d8064808d0086ca
-z
-Japp/src/main/java/com/example/moneyjars/fragment/NoteHistoryViewModel.java,a\7\a7761002b4ceb4096dd961d38dd0c4101bf45af9
 x
 Happ/src/main/java/com/example/moneyjars/adapter/AddSelectJarAdapter.java,5\c\5ce8bf0f877323908f7bd59da5e16030a8367fb9
 x
@@ -87,3 +85,11 @@ s
 Capp/src/main/java/com/example/moneyjars/adapter/HistoryAdapter.java,e\b\eb33935b3633c22bc717ed47ecba6f627c958199
 u
 Eapp/src/main/java/com/example/moneyjars/fragment/FragmentHistory.java,8\8\885dad77eadda1443b199b8cc048a619c0dbb397
+y
+Iapp/src/main/java/com/example/moneyjars/adapter/HistoryDetailAdapter.java,0\d\0da63d952529999ca4026432213ea715e9cc3f32
+s
+Capp/src/main/java/com/example/moneyjars/fragment/FragmentChart.java,2\4\247bae22af6f84049dcf32a3d627a6e6bbf0c7ac
+l
+<app/src/main/java/com/example/moneyjars/DialogDetailJar.java,b\c\bc353b7b5dbf5a63ad261f9484261194f63728c9
+{
+Kapp/src/main/java/com/example/moneyjars/viewmodel/NoteHistoryViewModel.java,d\e\deb673bfaeb58bfa586179bd9bec820abc41fa42

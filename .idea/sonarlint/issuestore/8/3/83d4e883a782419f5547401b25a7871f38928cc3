@@ -1,5 +1,7 @@
 
-M
-java:S1068"2Remove this unused "listJarHistory" private field.(ÖýÉ™úÿÿÿÿ
+N
+java:S1602"",Remove useless curly braces around statement(Õãšžþÿÿÿÿ8©ÉŒ¥².
 N
 java:S1068"3Remove this unused "listUserHistory" private field.(ÛËš©ÿÿÿÿÿ
+M
+java:S1068"2Remove this unused "listJarHistory" private field.(ÖýÉ™úÿÿÿÿ

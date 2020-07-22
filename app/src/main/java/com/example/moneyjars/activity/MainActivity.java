@@ -19,7 +19,7 @@ import com.example.moneyjars.adapter.BottomNavAdapter;
 import com.example.moneyjars.databinding.ActivityMainBinding;
 import com.example.moneyjars.entity.Jar;
 import com.example.moneyjars.entity.User;
-import com.example.moneyjars.fragment.NoteHistoryViewModel;
+import com.example.moneyjars.viewmodel.NoteHistoryViewModel;
 import com.example.moneyjars.viewmodel.JarViewModel;
 import com.example.moneyjars.viewmodel.UserViewModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;

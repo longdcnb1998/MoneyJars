@@ -1,19 +1,21 @@
 
-E
-java:S1604O"(Make this anonymous inner class a lambda(ì¼˜ğ8ÙÓƒì±.
-S
-java:S2696t"6Make the enclosing method "static" or remove this set.(‚²Œ¥8Ä¿è±.
-y
-java:S1450%"WRemove the "activity" field and declare it as a local variable in the relevant methods.(‰€Ôßûÿÿÿÿ8Ï¦×è±.
 [
-java:S1155]">Use isEmpty() to check whether the collection is empty or not.(™ÀÑœ8¡Œí±.
-|
-java:S1450)"_Remove the "historyViewModel" field and declare it as a local variable in the relevant methods.(“§Êï8ø åì±.
-D
-java:S1185."(Remove this method to simply inherit it.(¥Ë©8ø—ƒ±.
-|
-java:S1450("ZRemove the "preferences" field and declare it as a local variable in the relevant methods.(„€Àóûÿÿÿÿ8Øš ƒ±.
-x
-java:S1450'"[Remove the "jarViewModel" field and declare it as a local variable in the relevant methods.(¼•˜à8àğ€±.
+java:S1155l">Use isEmpty() to check whether the collection is empty or not.(™ÀÑœ8ã©í’².
+E
+java:S1604\"(Make this anonymous inner class a lambda(ì¼˜ğ8ã©í’².
 S
-java:S2696j"6Make the enclosing method "static" or remove this set.(‚²Œ¥8Ä¿è±.
+java:S1128	"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ8é¿ƒß².
+x
+java:S14504"[Remove the "jarViewModel" field and declare it as a local variable in the relevant methods.(¼•˜à8àğ€±.
+|
+java:S14505"ZRemove the "preferences" field and declare it as a local variable in the relevant methods.(„€Àóûÿÿÿÿ8Øš ƒ±.
+S
+java:S2696y"6Make the enclosing method "static" or remove this set.(‚²Œ¥8ã©í’².
+T
+java:S2696ƒ"6Make the enclosing method "static" or remove this set.(‚²Œ¥8ã©í’².
+y
+java:S14502"WRemove the "activity" field and declare it as a local variable in the relevant methods.(‰€Ôßûÿÿÿÿ8¹ú².
+D
+java:S1185;"(Remove this method to simply inherit it.(¥Ë©8¹ú².
+|
+java:S14506"_Remove the "historyViewModel" field and declare it as a local variable in the relevant methods.(“§Êï8¹ú².

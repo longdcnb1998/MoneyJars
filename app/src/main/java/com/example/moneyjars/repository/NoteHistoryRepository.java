@@ -31,6 +31,8 @@ public class NoteHistoryRepository {
     }
 
     public void insertHistory(NoteHistory noteHistory){
-        historyDao.insert(noteHistory);
+        AppDatabase.databaseWriteExecutor.execute(() ->{
+            historyDao.insert(noteHistory);
+        });
     }
 }

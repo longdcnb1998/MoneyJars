@@ -7,7 +7,6 @@ import android.os.SystemClock;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -27,6 +26,7 @@ import com.anychart.enums.Anchor;
 import com.anychart.enums.HoverMode;
 import com.anychart.enums.Position;
 import com.anychart.enums.TooltipPositionMode;
+import com.example.moneyjars.DialogDetailJar;
 import com.example.moneyjars.R;
 import com.example.moneyjars.activity.DealActivity;
 import com.example.moneyjars.adapter.HistoryAdapter;
@@ -34,7 +34,9 @@ import com.example.moneyjars.adapter.JarsAdapter;
 import com.example.moneyjars.databinding.FragmentHomeBinding;
 import com.example.moneyjars.entity.Jar;
 import com.example.moneyjars.entity.NoteHistory;
+import com.example.moneyjars.util.DialogUtils;
 import com.example.moneyjars.viewmodel.JarViewModel;
+import com.example.moneyjars.viewmodel.NoteHistoryViewModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -90,7 +92,9 @@ public class FragmentHome extends Fragment {
             adapter = new JarsAdapter(getActivity(), (ArrayList<Jar>) data, new JarsAdapter.Callback() {
                 @Override
                 public void onClick(int position) {
-                    Toast.makeText(getActivity(), "" + data.get(position).getNameJar(), Toast.LENGTH_SHORT).show();
+                    if (DialogUtils.enableShowDialogFragment(getFragmentManager(), DialogDetailJar.class.getSimpleName())){
+                        new DialogDetailJar(data.get(position)).show(getFragmentManager(),DialogDetailJar.class.getSimpleName());
+                    }
                 }
             });
 

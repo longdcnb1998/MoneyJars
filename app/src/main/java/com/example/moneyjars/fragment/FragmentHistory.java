@@ -1,12 +1,9 @@
 package com.example.moneyjars.fragment;
 
-import android.app.DatePickerDialog;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.DatePicker;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -25,6 +22,7 @@ import com.example.moneyjars.databinding.FragmentHistoryBinding;
 import com.example.moneyjars.entity.Jar;
 import com.example.moneyjars.entity.NoteHistory;
 import com.example.moneyjars.util.DialogUtils;
+import com.example.moneyjars.viewmodel.NoteHistoryViewModel;
 import com.github.dewinjm.monthyearpicker.MonthYearPickerDialog;
 import com.github.dewinjm.monthyearpicker.MonthYearPickerDialogFragment;
 
